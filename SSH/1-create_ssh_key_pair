@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Scrtipt creates an RSA key pair
+
+ssh-keygen -b 4096 -t rsa -f school -N betty
