@@ -1,17 +1,17 @@
 OpenSSH_8.2p1 Ubuntu-4ubuntu0.4, OpenSSL 1.1.1f  31 Mar 2020
 debug1: Reading configuration data /root/.ssh/config
-debug1: /root/.ssh/config line 1: Applying options for 185.27.134.140
+debug1: /root/.ssh/config line 1: Applying options for 54.163.18.141
 debug1: Reading configuration data /etc/ssh/ssh_config
 debug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files
 debug1: /etc/ssh/ssh_config line 21: Applying options for *
-debug1: Connecting to 185.27.134.140 [185.27.134.140] port 22.
+debug1: Connecting to 54.163.18.141 [54.163.18.141] port 22.
 debug1: Connection established.
 debug1: identity file /root/.ssh/school type -1
 debug1: identity file /root/.ssh/school-cert type -1
 debug1: Local version string SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.4
 debug1: Remote protocol version 2.0, remote software version OpenSSH_8.2p1 Ubuntu-4ubuntu0.4
 debug1: match: OpenSSH_8.2p1 Ubuntu-4ubuntu0.4 pat OpenSSH* compat 0x04000000
-debug1: Authenticating to 185.27.134.140:22 as 'ubuntu'
+debug1: Authenticating to 54.163.18.141:22 as 'ubuntu'
 debug1: SSH2_MSG_KEXINIT sent
 debug1: SSH2_MSG_KEXINIT received
 debug1: kex: algorithm: curve25519-sha256
@@ -20,7 +20,7 @@ debug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit
 debug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none
 debug1: expecting SSH2_MSG_KEX_ECDH_REPLY
 debug1: Server host key: ecdsa-sha2-nistp256 SHA256:2wSA2GueIX4bL9CbDCuaOtRkOi6g2osSF6J8I3bBtBw
-debug1: Host '185.27.134.140' is known and matches the ECDSA host key.
+debug1: Host '54.163.18.141' is known and matches the ECDSA host key.
 debug1: Found key in /root/.ssh/known_hosts:1
 debug1: rekey out after 134217728 blocks
 debug1: SSH2_MSG_NEWKEYS sent
@@ -36,4 +36,4 @@ debug1: Next authentication method: publickey
 debug1: Trying private key: /root/.ssh/school
 no such identity: /root/.ssh/school: No such file or directory
 debug1: No more authentication methods to try.
-ubuntu@172.17.0.14: Permission denied (publickey).
+ubuntu@54.163.18.141: Permission denied (publickey).
