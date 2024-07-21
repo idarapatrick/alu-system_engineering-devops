@@ -1,6 +1,20 @@
 #!/usr/bin/env bash
 # installs the reverse proxy - Nginx
-sudo apt update && upgrade
-sudo apt install nginx -y 
+
+# Update and upgrade the system packages
+sudo apt-get update -y && sudo apt-get upgrade -y
+
+# Install nginx
+sudo apt-get install nginx -y 
+
+# Ensures the /var/www/html directory exists
+sudo mkdir -p /var/www/html
+
+# Creates the index.html file with the desired content
 echo "Holberton School" | sudo tee /var/www/html/index.html
+
+# Starts nginx service
 sudo service nginx start
+
+# Restarts nginx to ensure changes are applied
+sudo service nginx restart
