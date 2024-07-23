@@ -2,7 +2,7 @@
 # Configures a new ubuntu machine by installing
 # Nginx where it should be listening on port 80
 # Serve a page that would return a Hello World string
-#
+#check
 
 echo -e "Updating and installing Nginx.\n"
 sudo apt-get update -y -qq && \
